@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-rotar",
+  "version": "1.0.0",
+  "description": "WhatsApp CRM - Sistema de administración de chats con bot, catálogo y publicidad",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["whatsapp", "crm", "bot", "catalog"],
+  "author": "Rotar",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.0",
+    "whatsapp-web.js": "^1.26.1"
+  }
+}

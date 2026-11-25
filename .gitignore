@@ -1,0 +1,9 @@
+node_modules/
+.wwebjs_cache/
+.wwebjs_auth/
+data/
+logs/
+public/uploads/media/
+public/uploads/products/
+public/uploads/campaigns/
+*.log
